@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textSize="18sp"
+    android:background="@drawable/network_stripes">
+
+
+    <TextView
+        android:text="Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:layout_weight="1"
+        android:id="@+id/textViewTitle"
+        android:gravity="center" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Version"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/textViewVersionNameLabel"
+            android:gravity="center" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/textViewVersionName"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Network"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/textViewNetwork"
+            android:gravity="center" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/networkLive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:buttonTint="@android:color/white"
+                android:textSize="15sp"
+                android:text="Live" />
+            <RadioButton android:id="@+id/networkRopsten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:buttonTint="@android:color/white"
+                android:textSize="15sp"
+                android:text="Ropsten" />
+            <RadioButton android:id="@+id/networkLocalhost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:buttonTint="@android:color/white"
+                android:textSize="15sp"
+                android:text="Localhost" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Domain name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:id="@+id/textViewDomain"
+            android:gravity="center" />
+
+        <EditText
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:padding="20dp"
+            android:textSize="18sp"
+            android:id="@+id/editTextDomain" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Private key"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:id="@+id/textViewPrivateKey"
+            android:gravity="center" />
+
+        <EditText
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:maxLines="5"
+            android:inputType="textPassword"
+            android:id="@+id/editTextPrivateKey" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:onClick="buttonSave" />
+
+</LinearLayout>

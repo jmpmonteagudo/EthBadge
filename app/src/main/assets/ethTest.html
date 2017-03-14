@@ -1,0 +1,23 @@
+<html>
+<head>
+    <script src="web3.js"></script>
+    <script src="ensutils.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<table border=1>
+    <tr><td>connected</td><td id="connected">...</td></tr>
+    <tr><td>ownerAddr</td><td id="ownerAddr">...</td></tr>
+</table>
+<script>
+
+    var web3 = new Web3(new Web3.providers.HttpProvider("TEMPLATE_TAG_SERVER")); // e.g. TEMPLATE_TAG_SERVER = https://ropsten.infura.io/RSJlYSaMBn90senwYhnq
+    var ens = new ENS(web3);
+
+    document.getElementById("connected").innerHTML = web3.isConnected();
+	var ownerAddr = ens.ens.owner(ens.namehash("TEMPLATE_TAG_NAME")); // e.g. TEMPLATE_TAG_NAME = jose.test
+    document.getElementById("ownerAddr").innerHTML = ownerAddr;
+    AndroidFunction.setDataFromJavaScript(document.getElementById("ownerAddr").innerHTML);
+</script>
+</body>
+</html>

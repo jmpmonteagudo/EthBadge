@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/network_stripes">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <!--
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_vertical_margin"
+        android:text="Select option"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    -->
+    <Button
+        android:id="@+id/buttonHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_drawable"
+        android:onClick="buttonHost"
+        android:text="Check badge"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonVisitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_drawable"
+        android:onClick="buttonVisitor"
+        android:text="Show badge"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:background="@drawable/button_drawable"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:onClick="buttonSettings" />
+
+
+    <Button
+        android:id="@+id/buttonIntroduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce"
+        android:background="@drawable/button_drawable"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:onClick="buttonIntroduce"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        android:background="@drawable/button_drawable"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:onClick="buttonTest"
+        android:visibility="visible"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+</LinearLayout >

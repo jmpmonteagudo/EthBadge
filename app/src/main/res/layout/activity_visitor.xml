@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/network_stripes">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:padding="@dimen/activity_vertical_margin" />
+
+        <!--
+        <TextView android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show badge to:"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:padding="@dimen/activity_vertical_margin" />
+        -->
+
+        <ListView
+            android:id="@+id/deviceList"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </FrameLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+        <!--
+        <Button
+            android:id="@+id/buttonKnock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Knock"
+            android:background="@drawable/button_drawable"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:onClick="buttonKnock" />
+        -->
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:background="@drawable/button_drawable"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:onClick="buttonBack" />
+
+    </LinearLayout >
+
+</LinearLayout >
