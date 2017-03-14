@@ -5,6 +5,9 @@ EthBadge is an open-source app for Android devices that uses Ethereum Name Servi
 Source code and documentation: [GitHub](https://github.com/js0p/EthBadge)
 Questions and suggestions: [Gitter](https://gitter.im/EthBadge/Lobby)
 
+### Open BETA
+App can be downloaded for beta-testing here:
+[https://play.google.com/apps/testing/org.jmpm.ethbadge](https://play.google.com/apps/testing/org.jmpm.ethbadge)
 
 ### Usage
 There are two possible roles when using the app: Visitor and Host.
