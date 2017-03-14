@@ -2,7 +2,8 @@
 
 ### Description
 EthBadge is an open-source app for Android devices that uses Ethereum Name Service (ENS) to verify the device's owner identity.
-The source code and documentation is available in [here](https://github.com/js0p/EthBadge)
+Source code and documentation: [GitHub](https://github.com/js0p/EthBadge)
+Questions and suggestions: [Gitter](https://gitter.im/EthBadge)
 
 
 ### Usage
