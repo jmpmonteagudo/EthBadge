@@ -33,10 +33,10 @@ Coming possible applications are:
 
 ### Q&A
 
-- Do I need to store my private key?
+**Do I need to store my private key?**
 No, the private key to be stored in the app is the one the ENS name translates to, not the owner of the name. This private key does not need to be your personal private key but from any wallet which can be created only for identification purposes.
 
-- What if my device is stolen or hacked? Will the attacker be able to use my identity?
+**What if my device is stolen or hacked? Will the attacker be able to use my identity?**
 EthBadge uses Android's keystore system and AES encryption whose key is the hash of a password the user enters. If, for example, the device is stolen, the attacker would need to know that password too.
 
 
