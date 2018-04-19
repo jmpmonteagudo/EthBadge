@@ -41,8 +41,7 @@ EthBadge uses Android's keystore system and AES encryption whose key is the hash
 
 
 ### Donations
-To support the development of this app, ETH can be donated to 0x935bad297B03568DF27676244e5E47a148cffe82
+To support the development of this app, ETH can be donated to 0x729F1cac8e5E14B75452E368294043bb97FB7237
 
 
-The source code and documentation is available in [here](https://github.com/js0p/EthBadge)
 
